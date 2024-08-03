@@ -68,7 +68,7 @@ services:
       - dokploy-network
   mailslurper:
     image: marcopas/docker-mailslurper:latest
-    ports:
+    #ports:
       #- '8080:8080' # web UI
       #- '8085:8085'
     networks:
